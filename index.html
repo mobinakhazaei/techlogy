@@ -57,19 +57,19 @@
                             <div class="collapse navbar-collapse" id="navbarsExample04">
                                 <ul class="navbar-nav mr-auto nav-titles">
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="#">Home</a>
+                                        <a class="nav-link link-nav" href="#">Home</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">About</a>
+                                    <li class="nav-item" onclick="goToParagraph('paragraph2')">
+                                        <a class="nav-link link-nav">What we do</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">What we do</a>
+                                    <li class="nav-item" onclick="goToParagraph('paragraph3')">
+                                        <a class="nav-link link-nav">About</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Portfolio </a>
+                                    <li class="nav-item"  onclick="goToParagraph('paragraph4')">
+                                        <a class="nav-link link-nav">Portfolio </a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact Us</a>
+                                    <li class="nav-item" onclick="goToParagraph('paragraph5')">
+                                        <a class="nav-link link-nav">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -88,7 +88,7 @@
     </nav>
     <!-- end nav -->
     <!-- start header  -->
-    <div id="top_section" class=" banner_main">
+    <div id="top_section" class=" banner_main" id="paragraph1">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -172,7 +172,7 @@
     </div>
     <!-- end header  -->
     <!-- we_do -->
-    <div class="we_do">
+    <div class="we_do" id="paragraph2">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -330,7 +330,7 @@
     </div>
     <!-- end we_do -->
     <!-- about -->
-    <div class="about">
+    <div class="about" id="paragraph3">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -344,7 +344,7 @@
     </div>
     <!-- end about -->
     <!-- portfolio -->
-    <div class="portfolio">
+    <div class="portfolio" id="paragraph4">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -467,7 +467,7 @@
     </div>
     <!-- end chose -->
     <!-- contact -->
-    <div class="contact">
+    <div class="contact" id="paragraph5">
         <div class="container">
             <div class="row ">
                 <div class="col-md-6">
@@ -675,6 +675,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/upDate.js"></script>
 </body>
 
 </html>
