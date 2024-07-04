@@ -471,6 +471,7 @@ ul.email li i {
      margin-right: 8px;
      background: #fff;
      color: #000;
+     border-radius: 50px;
 }
 
 .banner_main .bluid .read_more:hover {
