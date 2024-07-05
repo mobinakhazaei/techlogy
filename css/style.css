@@ -858,6 +858,12 @@ ul.email li i {
 
 /** testimonial **/
 
+.client_img{
+     object-fit: cover;
+     height: 100px;
+     width: 100px;
+}
+
 .posi_in {
      position: inherit;
      padding: 0;
