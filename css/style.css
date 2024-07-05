@@ -776,6 +776,7 @@ ul.email li i {
      max-width: 176px;
      line-height: 47px;
      height: 47px;
+     border-radius: 10px;
 }
 
 .chose_box .read_more:hover {
@@ -1076,7 +1077,7 @@ ul.social_icon li a:hover {
 .inner_page .header {
      box-shadow: 0 -3px 20px 0px #717171;
      position: inherit;
-   
+
 }
 
 .inner_page .about {
