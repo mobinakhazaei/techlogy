@@ -797,6 +797,10 @@ ul.email li i {
      padding: 90px 0;
 }
 
+.contact_hover:focus{
+     border: 3px dashed black!important;
+}
+
 .contact .titlepage::before {
      right: inherit;
      border: #2e2f34 solid 5px;
