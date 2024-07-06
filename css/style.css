@@ -544,6 +544,7 @@ ul.email li i {
 
 #we1 a.carousel-control-next,
 #we1 a.carousel-control-prev {
+     border-radius: 100%;
      background: #ffffff;
      width: 67px;
      height: 59px;
@@ -886,6 +887,7 @@ ul.email li i {
 
 #clientsl a.carousel-control-next,
 #clientsl a.carousel-control-prev {
+     border-radius: 100%;
      background: #ffffff;
      width: 67px;
      height: 59px;
