@@ -337,7 +337,7 @@ header
 li a:hover:before,ul li a:hover:before{
      transform: scaleX(1);
 }
-.navlink {
+.nav-link {
      color: #5a5959;
 }
 .link-nav:hover{
