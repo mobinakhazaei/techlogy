@@ -205,8 +205,6 @@ button {
      width: 80px;
      z-index: 999;
      margin: 0 auto;
-     left: 0;
-     right: 0;
      top: 55px;
 }
 
@@ -535,7 +533,16 @@ ul.email li i {
      margin: 0 auto;
      display: block;
      margin-right: 0;
+     background: white;
+     color: black;
+     border:1PX solid #464646;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     border-radius: 10px;
+}
+
+.we_box .read_more:hover{
      background: #464646;
+     color: white;
 }
 
 #we1 .carousel-indicators {
@@ -553,6 +560,7 @@ ul.email li i {
      font-size: 33px;
      color: #000000;
      box-shadow: 3px 0 36px rgba(30, 30, 30, 0.2);
+     transition-duration: 0.5s;
 }
 
 #we1 a.carousel-control-prev {
@@ -703,14 +711,19 @@ ul.email li i {
 .portfolio .read_more {
      margin: 0 auto;
      display: block;
-     background: #252525;
+     background: white;
+     color: #464646;
      margin-top: 30px;
+     border-radius: 10px;
+     border:1PX solid #464646;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     border-radius: 10px;
 }
 
-.portfolio .read_more:hover {
-     background: #464646c7;
+.portfolio .read_more:hover{
+     background: #464646;
+     color: white;
 }
-
 
 /* end portfolio */
 
@@ -815,21 +828,23 @@ ul.email li i {
 .main_form .send_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #323232;
+     background-color: white;
      text-transform: uppercase;
-     color: #fff;
+     color: #464646;
      padding: 25px 0px;
      max-width: 252px;
      width: 100%;
      display: block;
      margin-top: 10px !important;
      font-weight: bold;
+     border:1PX solid #464646;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     border-radius: 10px;
 }
 
 .main_form .send_btn:hover {
-     background-color: #464646c7;
-     transition: ease-in all 0.5s;
-     color: #fff;
+          background: #464646;
+          color: white;
 }
 
 #request *::placeholder {
@@ -888,6 +903,7 @@ ul.email li i {
 #clientsl a.carousel-control-next,
 #clientsl a.carousel-control-prev {
      border-radius: 100%;
+     transition-duration: 1s !important;
      background: #ffffff;
      width: 67px;
      height: 59px;
