@@ -861,7 +861,6 @@ ul.email li i {
 
 /** testimonial **/
 
-<<<<<<< Updated upstream
 
 .client_img{
      object-fit: cover;
@@ -869,11 +868,9 @@ ul.email li i {
      width: 100px;
 }
 
-=======
 .carousel-inner{
      height: 470px;
 }
->>>>>>> Stashed changes
 .posi_in {
      position: inherit;
      padding: 0;
