@@ -643,17 +643,20 @@ ul.email li i {
      margin: 0;
      position: relative;
      overflow: hidden;
+     border-radius: 10px;
 }
 
 #ho_nf:hover {
      box-shadow: 3px 0 20px rgba(30, 30, 30, 0.31);
      transition: ease-in all 0.5s;
+     border-radius: 10px;
 }
 
 #ho_nf:hover .portfolio_text {
      height: 240px;
      transition: ease-in all 0.5s;
      padding: 40px 40px;
+     border-radius: 10px;
 }
 
 #ho_nf:hover .li_icon {
