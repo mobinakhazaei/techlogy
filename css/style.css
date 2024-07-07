@@ -633,7 +633,6 @@ ul.email li i {
      border: #2e2f34 solid 5px;
      left: 15px;
 }
-
 .portfolio_main {
      margin-bottom: 30px;
      transition: ease-in all 0.5s;
@@ -801,7 +800,7 @@ ul.email li i {
 }
 
 .contact_hover:focus{
-     border: 3px dashed black!important;
+     border: 3px double black!important;
 }
 
 .contact .titlepage::before {
@@ -820,6 +819,7 @@ ul.email li i {
      color: #888888;
      font-size: 16px;
      font-weight: normal;
+     border-radius: 10px;
 }
 
 .main_form .textarea {
@@ -833,6 +833,7 @@ ul.email li i {
      padding: 57px 15px 0 15px;
      border-radius: 0;
      height: 150px;
+     border-radius: 10px;
 }
 
 .main_form .send_btn {
@@ -841,8 +842,8 @@ ul.email li i {
      background-color: white;
      text-transform: uppercase;
      color: #464646;
-     padding: 25px 0px;
-     max-width: 252px;
+     padding: 15px 0px;
+     max-width: 150px;
      width: 100%;
      display: block;
      margin-top: 10px !important;
@@ -884,6 +885,7 @@ ul.email li i {
      box-shadow: 0px 0 11px rgba(30, 30, 30, 0.07);
      padding: 40px;
      margin-bottom: 26px;
+     border-radius: 10px;
 }
 
 .clientsl_text i img {
@@ -891,6 +893,7 @@ ul.email li i {
      display: block;
      margin-right: 20px;
      float: left;
+     border-radius: 10px;
 }
 
 .clientsl_text h3 {
@@ -971,6 +974,8 @@ ul.email li i {
      height: 66px;
      width: 100%;
      font-size: 17px;
+     border-bottom-left-radius: 10px;
+     border-top-left-radius:10px
 }
 
 .subs_btn {
@@ -984,6 +989,8 @@ ul.email li i {
      text-transform: uppercase;
      font-weight: bold;
      transition: ease-in all 0.5s;
+     border-bottom-right-radius: 10px;
+     border-top-right-radius:10px
 }
 
 .subs_btn:hover {
