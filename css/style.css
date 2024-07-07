@@ -968,6 +968,8 @@ ul.email li i {
      height: 66px;
      width: 100%;
      font-size: 17px;
+     border-bottom-left-radius: 10px;
+     border-top-left-radius:10px
 }
 
 .subs_btn {
@@ -981,6 +983,8 @@ ul.email li i {
      text-transform: uppercase;
      font-weight: bold;
      transition: ease-in all 0.5s;
+     border-bottom-right-radius: 10px;
+     border-top-right-radius:10px
 }
 
 .subs_btn:hover {
